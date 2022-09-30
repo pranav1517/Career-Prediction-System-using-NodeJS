@@ -4,20 +4,20 @@ import { VscAccount } from 'react-icons/vsc'
 import { FaUser } from 'react-icons/fa'
 
 // import "../Components/Profile.css"
-import "./Profile.css"
+// import "./Profile.css"
 
 export default function Main() {
     return (
         <div className="main">
-            <div className="nav">
-                <div className="nav--upper">
+            <div className="nav1">
+                <div className="nav1--upper">
                     <AiOutlineHome />
                 </div>
-                <div className="nav--lower">
-                    <div className="nav--lower--icon1">
+                <div className="nav1--lower">
+                    <div className="nav1--lower--icon1">
                         <TbMessageCircle2 />
                     </div>
-                    <div className="nav--lower--icon2">
+                    <div className="nav1--lower--icon2">
                         <VscAccount />
                     </div>
 
