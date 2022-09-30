@@ -3,7 +3,8 @@ import { TbMessageCircle2 } from 'react-icons/tb'
 import { VscAccount } from 'react-icons/vsc'
 import { FaUser } from 'react-icons/fa'
 
-import "../Components/Profile.css"
+// import "../Components/Profile.css"
+import "./Profile.css"
 
 export default function Main() {
     return (
