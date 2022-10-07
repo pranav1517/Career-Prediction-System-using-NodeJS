@@ -14,8 +14,13 @@ function App() {
     <div className="App">
       <Router>
       <Switch>
-          <Route exact path="/">  <Main/> <Pc/> </Route>
+          <Route exact path="/"> 
+            <Main/> 
+            {/* <Pc/>  */}
+          </Route>
+
           <Route exact path="/signup">  <Signup/> </Route>
+          <Route exact path="/editprofile">  <Pc/> </Route>
           <Route exact path="/signin"> <Signin/> </Route>
           <Route exact path="/done"> <Done/> </Route>
       </Switch>

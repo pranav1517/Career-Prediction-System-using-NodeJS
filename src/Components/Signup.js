@@ -17,6 +17,8 @@ export default function Main() {
 
                     <h1 className='name'>Sign-up</h1>
 
+                    <form action="">
+
                     <fieldset>
                         <legend>Email</legend>
                         <input type="email" className="s" placeholder="Enter Email" />
@@ -51,6 +53,7 @@ export default function Main() {
                     </fieldset> <br />
                         </div>
 
+                    </form>
                     <a href="/done">
                     <button className="button" >Sign-Up</button>
                     </a>
