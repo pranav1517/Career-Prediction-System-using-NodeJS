@@ -59,8 +59,8 @@ const Signup = () => {
           </a>
         </div>
       </div>
-      
-        <div className="content">
+
+      <div className="content">
         <form onSubmit={handleSubmit}>
           <div className="email">
             <h1 className="name">Sign-up</h1>
@@ -119,7 +119,7 @@ const Signup = () => {
               />
             </fieldset>
 
-          {/*  <fieldset>
+            {/*  <fieldset>
               <legend>DOB</legend>
               <input
                 type="date"
@@ -145,14 +145,13 @@ const Signup = () => {
             </div>
             {error && <div>{error}</div>}
             <a href="/signin">
-              <button className="signup_button" type="submit">
+              <button className="button" type="submit">
                 Sign-Up
               </button>
             </a>
           </div>
-          </form>
-        </div>
-      
+        </form>
+      </div>
     </div>
   );
 };
