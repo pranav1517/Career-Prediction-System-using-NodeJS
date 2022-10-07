@@ -22,7 +22,8 @@ function App() {
           <Route exact path="/editprofile">  <Pc/> </Route>
           <Route exact path="/signin"> <Signin/> </Route>
           <Route exact path="/done"> <Done/> </Route>
-          <Route exact path="/" element={<Link to="/login"/>}/>
+          <Route exact path="/main"> <Main/> </Route>
+          <Route exact path="/" element={<Link to="/signin"/>}/>
       </Switch>
       </Router>
     </div>

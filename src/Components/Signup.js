@@ -59,8 +59,9 @@ const Signup = () => {
           </a>
         </div>
       </div>
-      <form onSubmit={handleSubmit}>
-        <div className="content">
+
+      <div className="content">
+        <form onSubmit={handleSubmit}>
           <div className="email">
             <h1 className="name">Sign-up</h1>
 
@@ -118,7 +119,7 @@ const Signup = () => {
               />
             </fieldset>
 
-          {/*  <fieldset>
+            {/*  <fieldset>
               <legend>DOB</legend>
               <input
                 type="date"
@@ -149,8 +150,8 @@ const Signup = () => {
               </button>
             </a>
           </div>
-        </div>
-      </form>
+        </form>
+      </div>
     </div>
   );
 };
