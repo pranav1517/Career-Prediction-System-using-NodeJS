@@ -19,6 +19,7 @@ function App() {
       <Switch>
           <Route exact path="/"> <Pc/></Route>
           <Route exact path="/signup">  <Signup/> </Route>
+          <Route exact path="/editprofile">  <Pc/> </Route>
           <Route exact path="/signin"> <Signin/> </Route>
           <Route exact path="/done"> <Done/> </Route>
           <Route exact path="/" element={<Link to="/login"/>}/>
