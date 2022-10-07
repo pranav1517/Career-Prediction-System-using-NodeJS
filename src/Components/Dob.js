@@ -12,15 +12,7 @@ export default function Main() {
 
             <div className="content">
             <div className="dob">
-                <h1 className='name'>Date of birth</h1>
-                <fieldset>
-                    <legend>DOB</legend>
-                    <input type="date" name="" id="" />
-                </fieldset> 
-                <br /> <br /> <br />
-                <a href="/signup/gender">
-                    <button className="button" >Next</button>
-                </a>
+
             </div>
             </div>
         </div>

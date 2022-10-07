@@ -12,19 +12,7 @@ export default function Main() {
 
             <div className="content">
             <div className="info">
-                <h1 className='name'>Information</h1>
-                <fieldset>
-                    <legend>Name</legend>
-                    <input type="text" placeholder="Enter First name" />
-                </fieldset> <br />
-                <fieldset>
-                    <legend>Surname</legend>
-                    <input type="text" placeholder="Enter Last name" />
-                </fieldset>
-                <br /> <br /> <br />
-                <a href="/signup/dob">
-                    <button className="button" >Next</button>
-                </a>
+
             </div>
             </div>
         </div>

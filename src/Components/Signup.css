@@ -17,7 +17,7 @@
     background-color: var(--D);
   }
   
-  .nav {
+  .nav2 {
     width: 18px;
     display: flex;
     flex-direction: column;
@@ -27,25 +27,27 @@
     background-color: var(--D);
   }
   
-  .nav--lower {
+  .nav2--lower {
     display: flex;
     flex-direction: column;
     position: absolute;
     bottom: 10px;
   }
 
+  fieldset{
+    border-radius: 15px;
+  }
 
-
-  .nav--upper a{
+  .nav2--upper a{
     text-decoration: none;
     color: gray;
   }
   
-  .nav--lower--icon2{
+  .nav2--lower--icon2{
     color: var(--A);
   }
 
-  .nav--upper{
+  .nav2--upper{
     margin-top: 21px;
     height: 221px;
     width: 212px;
@@ -53,7 +55,7 @@
     transform: rotate(-90deg);
   }
   
-  .nav--lower--icon {
+  .nav2--lower--icon {
     margin: 7px 0px;
   }
 
@@ -64,7 +66,7 @@
     background-clip: text;
     font-weight: 600;
     font-size: 46px;
-    margin-top: 150px;
+    margin-top: 50px;
   }
 
   .signin{
@@ -75,11 +77,15 @@
     cursor: pointer;
   }
 
-  .content input{
+  .content .s{
+    margin: 0px;
     width: 400px;
     color: black;
     background: transparent;
     border: none;
+  }
+
+  .s:focus{
     outline: none;
   }
 
@@ -100,6 +106,15 @@
     font-weight: 400;
   }
 
-  input{
-    margin: 0px;
+  td:nth-child(1) {
+    width: 250px;
+  }
+
+  select{
+    background-color: transparent;
+    border: none;
+  }
+
+  select:focus{
+    outline: none;
   }

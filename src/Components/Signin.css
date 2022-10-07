@@ -17,7 +17,7 @@
     background-color: var(--D);
   }
   
-  .nav {
+  .nav2 {
     width: 18px;
     display: flex;
     flex-direction: column;
@@ -27,18 +27,18 @@
     background-color: var(--D);
   }
   
-  .nav--lower {
+  .nav2--lower {
     display: flex;
     flex-direction: column;
     position: absolute;
     bottom: 10px;
   }
   
-  .nav--lower--icon2{
+  .nav2--lower--icon2{
     color: var(--A);
   }
 
-  .nav--upper{
+  .nav2--upper{
     margin-top: 21px;
     height: 221px;
     width: 212px;
@@ -46,7 +46,7 @@
     transform: rotate(-90deg);
   }
   
-  .nav--lower--icon {
+  .nav2--lower--icon {
     margin: 7px 0px;
   }
 
@@ -60,7 +60,7 @@
     margin-top: 150px;
   }
 
-  .nav--upper a{
+  .nav2--upper a{
     text-decoration: none;
     color: gray;
   }
@@ -77,8 +77,6 @@
     width: 400px;
     color: black;
     background: transparent;
-    border: none;
-    outline: none;
   }
 
   .fp{
@@ -96,4 +94,11 @@
     color: #FFFFFF;
     font-weight: 400;
   
+  }
+
+  .si{
+    border: none;
+  }
+  .si:focus{
+    outline: none;
   }
