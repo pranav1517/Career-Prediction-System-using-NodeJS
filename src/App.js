@@ -2,8 +2,10 @@ import './App.css';
 import Main from "./Components/Main.js"
 import Signin from "./Components/Signin"
 import Signup from "./Components/Signup"
-import Done from "./Components/Done"
-import Pc from "./Components/Pc"
+// import Pc from "./Components/Pc"
+import Test from "./Components/Test"
+import Select from "./Components/Select"
+import Home from "./Components/Home"
 import {
   BrowserRouter as Router,
   Switch,
@@ -13,9 +15,8 @@ import {
 function App() {
   const user = localStorage.getItem('token');
   return (
-    
     <div className="App">
-      <Router>
+      {/* <Router>
       <Switch>
           <Route exact path="/"> <Pc/></Route>
           <Route exact path="/signup">  <Signup/> </Route>
@@ -23,6 +24,17 @@ function App() {
           <Route exact path="/signin"> <Signin/> </Route>
           <Route exact path="/done"> <Done/> </Route>
           <Route exact path="/" element={<Link to="/login"/>}/>
+      </Switch>
+      </Router> */}
+
+      <Router>
+      <Switch>
+          <Route exact path="/"> <Home/> </Route>
+          <Route exact path="/signup">  <Signup/> </Route>
+          <Route exact path="/signin"> <Signin/> </Route>
+          <Route exact path="/test"> <Test/> </Route>
+          <Route exact path="/select"> <Select/> </Route>
+          <Route exact path="/profile"> <Main/> </Route>
       </Switch>
       </Router>
     </div>

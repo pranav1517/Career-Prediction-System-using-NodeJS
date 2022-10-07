@@ -54,8 +54,9 @@ const Signin = () => {
           </a>
         </div>
       </div>
-      <form onSubmit={handleSubmit}>
+      
         <div className="content">
+        <form onSubmit={handleSubmit}>
           <h1 className="name" style={{ marginTop: "150px" }}>
             Sign-in
           </h1>
@@ -82,11 +83,11 @@ const Signin = () => {
               value={data.password}
             />
           </fieldset>
-          <div className="fp">Forgot Password?</div>
           {error && <div>{error}</div>}
           <button className="signin-button">Sign-in</button>
+          </form>
         </div>
-      </form>
+      
     </div>
   );
 };

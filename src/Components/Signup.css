@@ -94,9 +94,8 @@
     float: left;
   }
 
-  .button {
+  .signup_button {
     background: #EB5E28;
-    margin-left: 200px;
     border-radius: 13px;
     width: 200px;
     height: 50px;
@@ -104,6 +103,8 @@
     font-size: 25px;
     color: #FFFFFF;
     font-weight: 400;
+    position: relative;
+    left: 125px;
   }
 
   td:nth-child(1) {

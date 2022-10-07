@@ -59,8 +59,9 @@ const Signup = () => {
           </a>
         </div>
       </div>
-      <form onSubmit={handleSubmit}>
+      
         <div className="content">
+        <form onSubmit={handleSubmit}>
           <div className="email">
             <h1 className="name">Sign-up</h1>
 
@@ -144,13 +145,14 @@ const Signup = () => {
             </div>
             {error && <div>{error}</div>}
             <a href="/signin">
-              <button className="button" type="submit">
+              <button className="signup_button" type="submit">
                 Sign-Up
               </button>
             </a>
           </div>
+          </form>
         </div>
-      </form>
+      
     </div>
   );
 };
